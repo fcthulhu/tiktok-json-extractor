@@ -1,13 +1,17 @@
 # Tiktok-json-extractor
 
-A quick and dirty NodeJS command line tool to extract data from a tiktok json data export.
-Allows extraction to plaintext / html and personnal videos download
+A quick and dirty NodeJS command line tool to extract data from a Tiktok export.
+
+Allows extraction to plaintext / html and videos download.
 
 ## Usage
 
-just run ```run npm install``` 
+Ask Tiktok to export a copy of your data in JSON format (takes a few days),
+download the zip file and extract it.
 
-then ```node extract.js```
+run ```run npm install``` 
+
+then ```node extract.js``` with the desired options
 
 ```
 Usage: extract.js -i file.json
@@ -40,6 +44,6 @@ Options:
 
 ## Todo
 
-- [ ] 
-
-- [ ] extraction of purchases
+- [ ] purchase history
+- [ ] favorite hashtags
+- [ ] ...
