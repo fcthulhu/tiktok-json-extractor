@@ -9,7 +9,7 @@ Allows extraction to plaintext / html and videos download.
 Ask Tiktok to export a copy of your data in JSON format (takes a few days),
 download the zip file and extract it.
 
-run ```run npm install``` 
+run ```npm install``` 
 
 then ```node extract.js``` with the desired options
 
